@@ -1,0 +1,25 @@
+.boton{
+    height: 83px;
+    display: flex;
+    flex: 1 1; /*Sirve para definir entre cuanto se puede distribuir el ancho segun el numero de elementos que haya */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgb(105, 24, 58);
+    cursor:pointer;
+    margin: 4px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    user-select: none;
+}
+
+
+.boton:hover{
+    color: rgb(41, 16, 48);
+    background-color: rgb(207, 206, 206);
+    border-color: rgb(47, 18, 54);
+}
+ 

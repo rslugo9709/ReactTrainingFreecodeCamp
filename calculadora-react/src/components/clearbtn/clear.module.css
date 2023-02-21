@@ -1,0 +1,23 @@
+
+
+.clear{
+    height: 60px;
+    font-size: 1.6em;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex: 1; /* se usa para que el boton llene todo el espacio*/
+    background-color: #ac0246;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.clear:hover{
+    background-color: white;
+    color:#ac0246;
+    border-color: #ac0246;
+}
